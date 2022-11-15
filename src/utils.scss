@@ -1,0 +1,25 @@
+$sm-breakpoint: 576px;
+$med-breakpoint: 768px;
+$lg-breakpoint: 992px;
+$xlg-breakpoint: 1200px;
+
+$gold-color: #b4974f;
+$dark-gold-color: #8b7230;
+$background-color: #f6f6f6;
+
+@font-face {
+  font-family: "Quicksand-light";
+  src: url("./assets/fonts/quicksand/Quicksand-Light.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Quicksand-normal";
+  src: url("./assets/fonts/quicksand/Quicksand-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Quicksand-bold";
+  src: url("./assets/fonts/quicksand/Quicksand-Bold.ttf") format("truetype");
+  font-weight: normal;
+}

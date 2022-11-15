@@ -1,0 +1,87 @@
+@import "../../utils.scss";
+
+.scene-2 {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  * {
+    font-family: "Quicksand-normal";
+    z-index: 11;
+    user-select: none;
+  }
+  .title {
+    .number {
+      font-family: "Quicksand-light";
+      position: relative;
+      &::after {
+        position: absolute;
+        background: $gold-color;
+        content: "";
+        width: 80%;
+        height: 1px;
+        top: 100%;
+        left: 0;
+      }
+    }
+    font-family: "Quicksand-light";
+    position: absolute;
+    top: 2vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $gold-color;
+    font-size: 4vh;
+  }
+
+  .timeline {
+    position: absolute;
+    top: 50%;
+    right: 3vw;
+    transform: translateY(-50%);
+    margin-top: 0;
+  }
+
+  .atom-name {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $gold-color;
+    font-size: 5vh;
+  }
+
+  .description {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateX(-50%);
+    width: 30vw;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.85vh;
+    background-color: #efefef;
+    opacity: 0.9;
+  }
+
+  .previous-atom,
+  .next-atom {
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    transform: translateX(-50%);
+    color: $gold-color;
+  }
+
+  .next {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $gold-color;
+    
+  }
+
+  .next-atom {
+    left: 80%;
+  }
+}
